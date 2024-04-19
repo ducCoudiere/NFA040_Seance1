@@ -1,106 +1,53 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Exercice CSS</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
-  <style>
-    *{
-        width: 50%;
-        height: 50%;
-        padding-top: 10%;
-        padding-left: 10%;
-        font-family: poppins;
-    }
-    
-    html {
-      background-color: black;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      width: 400px;
-      height: 400px;
-      border: 3px solid #a51399;
-      padding: 10px;
-      background-color: #96d3da8d;
-      border-radius: 30px;
-      position: relative;  
-    }
-    .nav-item {
-      color: white;
-      background-color: green;
-      width: 100px;
-      height: 100px;
-      text-align: center;
-      line-height: 100px;
-      position: absolute;
-      padding: 15px;      
-    }
-    .HautGauche {
-      top: 0;
-      left: 0;
-      background-color: green;
-      margin: 1rem;
-      font-size: 11px;
-      border: 2px solid black;
-      border-radius: 1rem;
-    }
-    .HautDroite {
-      top: 0;
-      right: 0;
-      background-color: rgb(215, 174, 23);
-      margin: 1rem;
-      border: 2px solid black;
-      font-size: 12px;
-      border-radius: 1rem;
-    }
-    .BasGauche {
-      bottom: 0;
-      left: 0;
-      background-color: rgb(169, 21, 21);
-      font-size: 11px;
-      margin: 1rem;
-      border: 2px solid black;
-      border-radius: 1rem;
-    }
-    .BasDroite {
-      bottom: 0;
-      right: 0;
-      background-color: rgb(31, 48, 196);
-      margin: 1rem;
-      font-size: 12px;
-      border: 2px solid black;
-      border-radius: 1rem;
-    }
-    .light {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      animation: pulsate 2s infinite;
-      background-color: orangered; /* Initial color */
-    }
-    @keyframes pulsate {
-      0% { box-shadow: 0 0 0 10px rgb(43, 37, 39); }
-      50% { box-shadow: 0 0 0 20px rgb(135, 55, 116); }
-      100% { box-shadow: 0 0 0 10px #f00; }
-    }
-  </style>
+    <title>Exercice CSS</title>
+    <style>
+        html {background-color: black}
+		#Madiv1{color:white;
+		        background-color: green;
+				position: absolute;
+				left:25px;
+				top:25px;
+				width:100px;
+				height:100px;
+				}
+        
+        #Madiv2{color:white;
+                background-color: orange;
+                position: absolute;
+                right:25px;
+                top:25px;
+                width:100px;
+                height:100px;
+                }
+        #Madiv3{color:white;
+        background-color: blue;
+        position: absolute;
+        right:25px;
+        bottom:25px;
+        width:100px;
+        height:100px;
+        }
+
+        #Madiv4{color:white;
+        background-color: red;
+        position: absolute;
+        left:25px;
+        bottom:25px;
+        widht:100px;
+        height:100px;
+        }
+}
+
+    </style>
 </head>
-
 <body>
-
-  <header>
-    <nav>
-	@@ -112,5 +113,7 @@
-    </nav>
-  </header>
-
+<header>
+    <div id="Madiv1">En haut à gauche</div>
+    <div id="Madiv2">En haut à droite</div>
+    <div id="Madiv3">En bas à droite</div>
+    <div id="Madiv4">En bas à gauche</div>
+</header>
 </body>
 </html>
-
-
 
