@@ -1,7 +1,7 @@
 name: Industrialisation continue sur le serveur Alwaysdata
 on: push
 jobs:
-  Connexion:
+  Connexion: 
     runs-on: ubuntu-latest
     steps: 
       - name: Connexion SSH avec le serveur
