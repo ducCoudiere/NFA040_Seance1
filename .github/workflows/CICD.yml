@@ -3,7 +3,7 @@ on: push
 jobs:
   Connexion:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Connexion SSH avec le serveur
         uses: appleboy/ssh-action@master
         with:
